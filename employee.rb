@@ -23,6 +23,16 @@ Employee and Manager
 =end
 
 class Employee
+  attr_reader :name, :title, :salary, :boss
+  def initialize(name, salary)
+    @name = name
+    @title = title
+    @salary = salary
+    @boss = boss
+  end
 
+  def bonus(multiplier)
+    @bonus = @salary * multiplier 
+  end
 
 end
