@@ -21,3 +21,8 @@ Employee and Manager
   bonus = (total salary of all sub-employees) * multiplier
 
 =end
+
+class Employee
+
+
+end
